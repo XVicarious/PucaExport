@@ -8,7 +8,7 @@ PucaExport will export all of your unshipped trades in an easy to read, easy to 
 123 Main Street
 Nowhere, KS 00000
 
-| 0000100 | Black Lotus | Unlimied Edition | N/A |
+| 0000100 | Black Lotus | Unlimied Edition | N/A |  
 | 0000101 | Steppe Glider | Oath of the Gatewatch | FOIL |
 
 

@@ -1,10 +1,7 @@
 # PucaExport
 Easily Export Your Unshipped Trades!
 
-Add it to your bookmarks to automatically run the script!  Just drag the following up there!  
-<a href="javascript:(function () { $('<script>').attr('src', 'https://xvicarious.github.io/PucaExport/pucaexport.js?'+(new Date()).getTime()).appendTo('head'); })();">PucaExport</a>
-
-Or add it manually  
+Add it to your bookmarks to automatically run the script!  Just make a bookmark called "PucaExport" and paste the following in the URL.  
 <code>javascript:(function () { $('\<script\>').attr('src', 'https://xvicarious.github.io/PucaExport/pucaexport.js?'+(new Date()).getTime()).appendTo('head'); })();</code>
 
 PucaExport will export all of your unshipped trades in an easy to read, easy to cut out format.  It will gather all your unshipped items and open a new window with everything you need.  It looks something like this:  

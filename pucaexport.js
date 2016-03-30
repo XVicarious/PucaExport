@@ -1,8 +1,9 @@
 var cards = [];
 $(function(){
 	if(window.location.href == "https://pucatrade.com/trades/active"){
+		console.log("Window Location: GOOD");
 		$('table tr').each(function(){
-			if ($(this).children(":nth-child(7)").text() == "Unshipped"){
+			if ($(this).contents().find('td').text() == "Shipped"){
 				var tradeNumber = $(this).children(":first-child").text().trim();
 				var cardSet = $(this).children(":nth-child(2)").children(":first-child").attr("title");
 				var cardName = $(this).children(":nth-child(3)").children(":first-child").children(":first-child").children("a:first-child").text();

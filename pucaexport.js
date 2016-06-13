@@ -30,7 +30,7 @@ $(function(){
 					console.log("address exists, adding new card");
 					cards[indexAddress[0]][1].push([tradeNumber, points, cardSet, cardName, isFoil]);
 				} else {
-					cards.push([address, [[tradeNumber, cardSet, cardName, isFoil]]]);
+					cards.push([address, [[tradeNumber, points, cardSet, cardName, isFoil]]]);
 				}
 			}
 		});

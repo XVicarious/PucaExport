@@ -23,7 +23,7 @@ $(function(){
 				var cardName = $(this).children(":nth-child(3)").children(":first-child").children(":first-child").children("a:first-child").text();
 				var isFoil = ($(this).children(":nth-child(6)").children("img").attr("src") == "/images/icons/card-foil.png" ? "FOIL" : "N/A");
 				var address = $(this).children(".receiver").find("a.trader div.userAddress div.address_text").html();
-				var points = $(this).children(":nth-child(4)").text.trim();
+				var points = $(this).children(":nth-child(4)").text().trim();
 				points = parseInt(points);
 				var indexAddress = getIndexOfK(cards, address);
 				if (indexAddress && indexAddress[0] >= 0) {
